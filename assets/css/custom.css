@@ -1,0 +1,15 @@
+body {
+  background-color: #000000 !important;
+  color: #00FF00 !important; /* bright green text */
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+a {
+  color: #00FF00 !important;
+}
+
+code, pre {
+  background-color: #000000 !important;
+  color: #00FF00 !important;
+  font-family: "Courier New", Courier, monospace !important;
+}
