@@ -1,3 +1,13 @@
 title: My Cybersecurity Lab
 description: Labs, writeups, and notes from my journey into cybersecurity.
 theme: jekyll-theme-midnight
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sass-converter
+
+# Tell Jekyll to include your custom CSS file
+include:
+  - assets/css/custom.css
