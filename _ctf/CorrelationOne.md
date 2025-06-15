@@ -1,26 +1,24 @@
 ---
-title: "Basic Web Exploitation Challenge"
+title: "CorrelationOne CTF Challenge: Hoasted Toasted"
 layout: default
 date: 2025-06-15
 ---
 
 ## Basic Web Exploitation Challenge
 
-This is a walkthrough of a simple CTF web challenge.
+This is a walkthrough on 'Hoasted Toasted', one of the challenges in the 2025 CorrelationOne CTF Event hosted by the DoD.
 
 ---
 
 ### 🧠 Challenge Description
 
-We were given a login form that was vulnerable to SQL injection.
+We are given a URL to begin and are tasked to locate the hidden internal-only site. 
 
 ---
 
 ### ✅ Steps Taken
 
-1. Found the login form at `/login.php`
-2. Tested SQL injection payload `' OR 1=1 --` in the username field.
-3. Gained access as admin.
+1: 
 
 ---
 
