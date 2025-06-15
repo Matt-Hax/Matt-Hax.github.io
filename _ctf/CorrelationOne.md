@@ -16,7 +16,7 @@ This room was worth 150 points.
 We are given a URL to begin and are tasked to locate the hidden internal-only site. 
 
 <p align="center">
-  <img src="/assets/images/Hosted_Toasted.png" alt="The challenges initial description" width="650">
+  <img src="/assets/images/44.png" alt="The challenges initial description" width="650">
 </p>
 
 ---
