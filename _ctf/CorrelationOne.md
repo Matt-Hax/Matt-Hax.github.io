@@ -13,6 +13,8 @@ This is a walkthrough on 'Hoasted Toasted', one of the challenges in the 2025 Co
 ### 🧠 Challenge Description
 
 We are given a URL to begin and are tasked to locate the hidden internal-only site. 
+![The initial challenges description](/assets/images/Hosted_Toasted.png)
+
 
 ---
 
