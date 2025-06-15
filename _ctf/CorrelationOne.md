@@ -1,5 +1,6 @@
 ---
 title: "Basic Web Exploitation Challenge"
+layout: default
 date: 2025-06-15
 ---
 
