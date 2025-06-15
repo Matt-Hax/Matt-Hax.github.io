@@ -28,6 +28,10 @@ Upon visiting the URL, we are greeted with the following landing page.
   <img src="/assets/images/2.png" alt="Lanind page of the given URL" width="650">
 </p>
 
+Theres nothing odd at first glance. No buttons to click on or anything to interact with. We can gather more information of the website by using <a href="https://www.ssllabs.com/ssltest/">SSLLabs</a>
+
+
+
 ---
 
 ### 🎯 Flag
