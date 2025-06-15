@@ -18,15 +18,11 @@ We are given a URL to begin and are tasked to locate the hidden internal-only si
   <img src="/assets/images/Hosted_Toasted.png" alt="The challenges initial description" width="650">
 </p>
 
-It was fun piecing together clues from various sources!
-
-
-
 ---
 
 ### ✅ Steps Taken
 
-1: 
+Upon visiting the URL, we are greeted with the following landing page.
 
 ---
 
