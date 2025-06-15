@@ -1,6 +1,6 @@
 title: My Cybersecurity Lab
 description: Labs, writeups, and notes from my journey into cybersecurity.
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
 
 
 sass:
