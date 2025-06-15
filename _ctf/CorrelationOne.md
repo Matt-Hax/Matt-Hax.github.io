@@ -4,9 +4,10 @@ layout: default
 date: 2025-06-15
 ---
 
-## Basic Web Exploitation Challenge
-
-This is a walkthrough on 'Hoasted Toasted', one of the challenges in the 2025 CorrelationOne CTF Event hosted by the DoD.
+## Recon Challenge
+## Matthew McClintock 6/15/25
+This is a walkthrough of 'Hoasted Toasted', one of the challenges in the 2025 CorrelationOne CTF Event hosted by the DoD.
+This room was worth 150 points.
 
 ---
 
