@@ -35,7 +35,8 @@ This site is a free online tool by Qualys that analyzes the SSL/TLS configuratio
   <img src="/assets/images/333.png" alt="SSLLabs info" width="650">
 </p>
 
-
+Unfortunately, trying to visit that site directly does not work. The site will not resolve externally so we have to find a way to fix that. Luckily we can modify the /etc/hosts system file on our kali machine. 
+/etc/hosts is a plain text file that locally maps IP addresses to hostnames. Its like a mini DNS server. It is not unique to Kali, but found on all Unix operating systems.
 
 
 ---
