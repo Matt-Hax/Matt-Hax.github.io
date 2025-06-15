@@ -79,6 +79,15 @@ The server saw the 'definitelynotaflag.north.torbia' hostname in the request (fr
 
 Now upon visiting the internal url, we can finally access the site! 
 
+<p align="center">
+  <img src="/assets/images/10.png" alt="internal site access" width="650">
+</p>
+
+Amoong the secrets is the flag at the bottom!
+
+<p align="center">
+  <img src="/assets/images/11.png" alt="Flag found" width="650">
+</p>
 ---
 
 ### 🎯 Flag
