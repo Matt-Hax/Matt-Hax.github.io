@@ -24,6 +24,10 @@ We are given a URL to begin and are tasked to locate the hidden internal-only si
 
 Upon visiting the URL, we are greeted with the following landing page.
 
+<p align="center">
+  <img src="/assets/images/2.png" alt="Lanind page of the given URL" width="650">
+</p>
+
 ---
 
 ### 🎯 Flag
