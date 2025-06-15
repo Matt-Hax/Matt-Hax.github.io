@@ -32,7 +32,7 @@ Theres nothing odd at first glance. No buttons to click on or anything to intera
 This site is a free online tool by Qualys that analyzes the SSL/TLS configuration of websites. It can be useful for OSINT since we can gather things like server IP's, hosting providor info, certificate issuer, and Comman Name & Alternative Name's. The last of which will help us out here. We find that the alternative name is definitelynotaflag.north.torbia. Definitely not suspicious...
 
 <p align="center">
-  <img src="/assets/images/33.png" alt="SSLLabs info" width="650">
+  <img src="/assets/images/333.png" alt="SSLLabs info" width="650">
 </p>
 
 
