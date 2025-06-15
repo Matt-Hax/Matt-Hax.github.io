@@ -12,6 +12,7 @@ plugins:
 # Tell Jekyll to include your custom CSS file
 include:
   - assets/css/custom.css
+  
 collections:
   ctf:
     output: true
