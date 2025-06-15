@@ -58,6 +58,13 @@ We can see that the IP address is 34.86.60.228. Now that we have all this inform
 
 We do this by editing the content with 'nano'. 
 
+<p align="center">
+  <img src="/assets/images/7.png" alt="nano command" width="650">
+</p>
+
+As you can see there are only 2 entries. We'll add a 3rd.
+
+
 ---
 
 ### 🎯 Flag
