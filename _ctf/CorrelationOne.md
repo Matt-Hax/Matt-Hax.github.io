@@ -50,6 +50,7 @@ Unfortunately, trying to visit that site directly does not work. The site will n
 ---
 
 Luckily we can modify the /etc/hosts system file on our kali machine. /etc/hosts is a plain text file that locally maps IP addresses to hostnames. Its like a mini DNS server. It is not unique to Kali, but found on all Unix operating systems. 
+
 Before we do that, we need to find the IP of the original site not-torbian.ethtrader-ai.com. 
 
 We'll use the 'dig' command for that.
