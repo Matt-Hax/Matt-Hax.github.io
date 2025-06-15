@@ -40,10 +40,14 @@ We find that the alternative name is definitelynotaflag.north.torbia. Definitely
   <img src="/assets/images/333.png" alt="SSLLabs info" width="650">
 </p>
 
+---
+
 Unfortunately, trying to visit that site directly does not work. The site will not resolve externally so we have to find a way to fix that. 
 <p align="center">
   <img src="/assets/images/6.png" alt="Unresolved alt site" width="650">
 </p>
+
+---
 
 Luckily we can modify the /etc/hosts system file on our kali machine. /etc/hosts is a plain text file that locally maps IP addresses to hostnames.
 
@@ -55,6 +59,7 @@ We'll use the 'dig' command for that.
   <img src="/assets/images/5.png" alt="dig command" width="650">
 </p>
 
+---
 We can see that the IP address is 34.86.60.228. Now that we have all this information, we can edit the /etc/hosts file I previously talked about.
 
 We do this by editing the content with 'nano'. 
@@ -69,11 +74,15 @@ As you can see there are only 2 entries. We'll add a 3rd.
   <img src="/assets/images/8.png" alt="/etc/hosts content" width="650">
 </p>
 
+---
+
 Mapping 34.86.60.228 to the subdomain 'definitelynotaflag.north.torbia' should do the trick.
 
 <p align="center">
   <img src="/assets/images/9.png" alt="/etc/hosts content" width="650">
 </p>
+
+---
 
 By adding a line in /etc/hosts to point 'definitelynotaflag.north.torbia' to the main site’s IP, the system bypassed DNS and sent the request directly to that IP.
 The server saw the 'definitelynotaflag.north.torbia' hostname in the request (from the Host header) and responded with the correct hidden content, even though the IP was shared with the main site.
@@ -84,6 +93,8 @@ Now upon visiting the internal url, we can finally access the site!
   <img src="/assets/images/10.png" alt="internal site access" width="650">
 </p>
 
+---
+
 ### 🎯 Flag
 
 Among the secrets is the flag at the bottom!
@@ -91,6 +102,7 @@ Among the secrets is the flag at the bottom!
 <p align="center">
   <img src="/assets/images/11.png" alt="Flag found" width="650">
 </p>
+
 ---
 
 
