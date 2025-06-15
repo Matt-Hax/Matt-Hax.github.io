@@ -1,15 +1,28 @@
 body {
-  background-color: #000000 !important;
-  color: #00FF00 !important; /* bright green text */
-  font-family: "Courier New", Courier, monospace !important;
+  background-color: #0d0d0d;
+  color: #00ff88;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #111;
+  padding: 1em;
+}
+
+nav a {
+  color: #00ff88;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main.container {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
 
 a {
-  color: #00FF00 !important;
-}
-
-code, pre {
-  background-color: #000000 !important;
-  color: #00FF00 !important;
-  font-family: "Courier New", Courier, monospace !important;
+  color: #00ff88;
 }
