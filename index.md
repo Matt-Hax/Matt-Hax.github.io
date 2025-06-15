@@ -8,6 +8,8 @@ I'm a recent IT graduate with 4 years of experience in tech support. My interest
 I'm currently focused on Blue Team concepts and aiming to break into the SOC world as a Tier 1 Analyst. 
 This page is where I document my journey from labs to writeups and notes.
 
-- [Labs](./labs/)
-- [Writeups](./writeups/)
-- [Tools & Notes](./tools/)
+## 🔗 Explore My Work
+
+- [🧠 CTF Writeups](/ctf/)
+- [💻 Labs Coming Soon](/labs/)
+- [📓 Notes Coming Soon](/notes/)
