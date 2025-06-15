@@ -29,14 +29,26 @@ Upon visiting the URL, we are greeted with the following landing page.
 </p>
 
 Theres nothing odd at first glance. No buttons to click on or anything to interact with. We can gather more information of the website by using <a href="https://www.ssllabs.com/ssltest/">SSLLabs</a>. 
-This site is a free online tool by Qualys that analyzes the SSL/TLS configuration of websites. It can be useful for OSINT since we can gather things like server IP's, hosting providor info, certificate issuer, and Comman Name & Alternative Name's. The last of which will help us out here. We find that the alternative name is definitelynotaflag.north.torbia. Definitely not suspicious...
+This site is a free online tool by Qualys that analyzes the SSL/TLS configuration of websites. 
+
+It can be useful for OSINT since we can gather things like server IP's, hosting providor info, certificate issuer, and Comman Name & Alternative Name's. 
+
+The last of which will help us out here. We find that the alternative name is definitelynotaflag.north.torbia. Definitely not suspicious...
 
 <p align="center">
   <img src="/assets/images/333.png" alt="SSLLabs info" width="650">
 </p>
 
-Unfortunately, trying to visit that site directly does not work. The site will not resolve externally so we have to find a way to fix that. Luckily we can modify the /etc/hosts system file on our kali machine. 
-/etc/hosts is a plain text file that locally maps IP addresses to hostnames. Its like a mini DNS server. It is not unique to Kali, but found on all Unix operating systems.
+Unfortunately, trying to visit that site directly does not work. The site will not resolve externally so we have to find a way to fix that. 
+<p align="center">
+  <img src="/assets/images/6.png" alt="Unresolved alt site" width="650">
+</p>
+
+Luckily we can modify the /etc/hosts system file on our kali machine. /etc/hosts is a plain text file that locally maps IP addresses to hostnames.
+
+ Its like a mini DNS server. It is not unique to Kali, but found on all Unix operating systems. Before we do that, we need to find the IP of the original site not-torbian.ethtrader-ai.com. 
+
+We'll use the 'dig' command for that.
 
 
 ---
