@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Page Title
+title: CTF Writeups
+permalink: /ctf/
 ---
+
 
 # CTF Writeups
 
