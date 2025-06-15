@@ -54,6 +54,10 @@ We'll use the 'dig' command for that.
   <img src="/assets/images/5.png" alt="dig command" width="650">
 </p>
 
+We can see that the IP address is 34.86.60.228. Now that we have all this information, we can edit the /etc/hosts file I previously talked about.
+
+We do this by editing the content with 'nano'. 
+
 ---
 
 ### 🎯 Flag
