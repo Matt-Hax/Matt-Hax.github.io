@@ -64,6 +64,20 @@ We do this by editing the content with 'nano'.
 
 As you can see there are only 2 entries. We'll add a 3rd.
 
+<p align="center">
+  <img src="/assets/images/8.png" alt="/etc/hosts content" width="650">
+</p>
+
+Mapping 34.86.60.228 to the subdomain 'definitelynotaflag.north.torbia' should do the trick.
+
+<p align="center">
+  <img src="/assets/images/9.png" alt="/etc/hosts content" width="650">
+</p>
+
+By adding a line in /etc/hosts to point 'definitelynotaflag.north.torbia' to the main site’s IP, the system bypassed DNS and sent the request directly to that IP.
+The server saw the 'definitelynotaflag.north.torbia' hostname in the request (from the Host header) and responded with the correct hidden content, even though the IP was shared with the main site.
+
+Now upon visiting the internal url, we can finally access the site! 
 
 ---
 
