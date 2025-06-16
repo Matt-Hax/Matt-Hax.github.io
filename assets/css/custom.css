@@ -70,4 +70,13 @@ footer {
   color: #777;
 }
 
+.highlight-box {
+  background-color: #e6e6e6; /* light gray box */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
 
