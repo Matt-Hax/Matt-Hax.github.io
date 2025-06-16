@@ -10,6 +10,10 @@ html, body {
   min-height: 100vh;
 }
 
+.site-header a[href*="github.com"] {
+  display: none !important;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
