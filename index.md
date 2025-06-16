@@ -2,11 +2,6 @@
 layout: default
 title: Home
 ---
-<div class="hero-section">
-  <h1>Hi, I'm Matt McClintock</h1>
-  <p>Documenting my journey from tech support to cybersecurity. Aspiring SOC analyst.</p>
-  <a class="cta-button" href="/ctf/">🔍 View My CTF Writeups</a>
-</div>
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
