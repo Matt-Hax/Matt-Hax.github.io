@@ -3,7 +3,7 @@ title: "CorrelationOne CTF Challenge: Hoasted Toasted"
 layout: default
 date: 2025-06-15
 ---
-
+<link rel="stylesheet" href="/assets/css/custom.css">
 ## Recon Challenge
 ## Matthew McClintock 6/15/25
 This is a walkthrough of 'Hoasted Toasted', one of the challenges in the 2025 CorrelationOne CTF Event hosted by the DoD.
