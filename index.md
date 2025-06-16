@@ -2,8 +2,7 @@
 layout: default
 title: Home
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 # Hi, I'm Matt!
 
