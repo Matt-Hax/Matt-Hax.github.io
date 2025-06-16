@@ -67,3 +67,10 @@ footer {
   font-size: 0.9em;
   color: #777;
 }
+
+html, body {
+  background-color: #0f0f0f; /* Matches the Hacker theme's dark background */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
