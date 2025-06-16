@@ -1,7 +1,8 @@
 title: Matt McClintock
-description: Labs, writeups, and notes from my journey into cybersecurity.
+description: My cybersecurity lab and writeup journal.
 theme: jekyll-theme-hacker
 
+show_downloads: false
 
 sass:
   style: compressed
