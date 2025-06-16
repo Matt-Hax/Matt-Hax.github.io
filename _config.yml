@@ -1,8 +1,8 @@
-title: Matt McClintock
-description: My cybersecurity lab and writeup journal.
+#title: Matt McClintock
+#description: My cybersecurity lab and writeup journal.
 theme: jekyll-theme-hacker
 
-show_downloads: false
+#show_downloads: false
 
 sass:
   style: compressed
