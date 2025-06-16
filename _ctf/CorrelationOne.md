@@ -100,7 +100,7 @@ Now upon visiting the internal url, we can finally access the site!
 Among the secrets is the flag at the bottom!
 
 <p align="center">
-  <img src="/assets/images/11.png" alt="Flag found" width="650">
+  <img src="/assets/images/111.png" alt="Flag found" width="650">
 </p>
 
 ---
