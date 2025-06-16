@@ -4,6 +4,7 @@ title: CTF Writeups
 permalink: /ctf/
 ---
 
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 # CTF Writeups
 
