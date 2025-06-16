@@ -10,7 +10,7 @@ html, body {
   min-height: 100vh;
 }
 
-.site-header a[href*="github.com"] {
+#downloads {
   display: none !important;
 }
 
